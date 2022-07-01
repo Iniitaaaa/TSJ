@@ -1,0 +1,264 @@
+@font-face {
+    font-family:'Crimson-bold';
+    src: url(/fonts/Crimson_Pro/static/CrimsonPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'Encode-Reg';
+    src: url(/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Joan';
+    src: url(/fonts/Joan/Joan-Regular.ttf);
+}
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px)  {
+/*nav*/
+    nav {
+        width: 50%;
+    }
+    .menu-navegacion {
+        width: 100% ;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      margin-left: 9%;
+      text-align: center;
+      
+    }
+    .nav:hover {
+        color: #8a8a8a;
+    }
+    .nav {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-family: 'Joan';
+        font-size: 1.9vh;
+        }
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #0a0a0a;
+        padding: 1% 0;
+        }
+      
+    .logo {
+            max-width: 10%;
+            max-height: 10%;
+    }
+    
+    body {
+        background-color: #0a0a0a;
+    }
+    /*presentacion*/
+    .presentacion {
+       
+        background-color: #0a0a0a;
+        color: white;
+        font-family: 'Joan';
+        width: 100%;
+        justify-content: space-around;
+   
+    }
+ .presentacion img {
+    width: 40%;
+    height: auto;
+   float: left;
+   margin-left: 0;
+  
+
+    
+ }
+ .presentacion h1 {
+    font-size: 80px;
+    text-align: center;
+    width: 90%;
+    padding: 0;
+    margin-left: 10%;
+
+ }
+ 
+ .presentacion p {
+ font-size: 30px;
+ text-align: justify;
+ margin-left: 50%;
+ margin-right: 10%;
+
+ }
+ .botones-p1 a, .botones-p2 a {
+  
+    text-decoration: none;
+    color: white;
+    
+ }
+ .botones-p1, .botones-p2 {
+  color: white;
+ display: inline;
+ font-family: 'Joan';
+ background-color: #242424;
+font-size: 120%;
+ padding: 1%;
+ border-radius: 5%;
+ 
+}
+.botones-p1:hover {
+    box-shadow: 5px 3px 3px rgba(227, 227, 227, 0.3);
+}
+.botones-p2:hover {
+    box-shadow: 5px 3px 3px rgba(227, 227, 227, 0.3);
+}
+ .botones-p2 {
+    margin-left: 8%;
+ }
+ .boton-2:hover {
+    color: RGB(169, 121, 189)
+ }
+
+ .botones-p1 {
+    margin-left: 20%;
+ }
+ /*pasos*/
+ .presentacion-2 {
+    display: inline-block;
+    margin-top: 10%;
+    background-color: white;
+    width: 100%;
+    height: auto;
+   
+ }
+ .presentacion-2 h2 {
+    text-align: center;
+    font-family: 'Joan';
+    font-size: 250%;
+    font-weight: 900;
+    margin-top: 3%;
+ }
+ .presentacion-2-p {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Joan';
+    font-weight: 600;
+ }
+ /*Imagenes pasos*/
+ .pasos img {
+    width: 10%;
+    height: 10%;
+ }
+ .img-1 {
+    margin-left: 7%;
+ }
+ .img-2 {
+    margin-left: 15%;
+ }
+ .img-3 {
+    margin-left: 14%;
+ }
+ .img-4 {
+    margin-left: 15%;
+ }
+ /*Texto pasos*/
+ .pasos-text {
+    display: flex;
+    justify-content: space-around;
+ }
+ .pasos-text p {
+ font-family: 'Encode-Reg';
+ font-size: 120%;
+ text-align:center;
+ color: black;
+ }
+ .t-1 {
+margin-left: 5%;
+margin-right: 5%
+ }
+ .t-2 {
+margin-left: 5%;
+margin-right: 5%
+ }
+ .t-3 {
+    margin-left: 5%;
+    margin-right: 5%
+ }
+ .t-4 {
+    margin-left: 5%;
+    margin-right: 5%
+ }
+ /*FOOTER*/
+ footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #0a0a0a
+    
+ }
+ .container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Encode-Reg';
+    
+ }
+ .box_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+ }
+.box_footer .logo img {
+    width: 180px;
+}
+.box_footer .terms  {
+    max-width: 300px;
+    margin-top: 60px;
+    font-weight: 500;
+    
+}
+.box_footer .contacto {
+    color: #acacac;
+    justify-content: space-around;
+    text-align: justify;
+}
+.box_footer h2  {
+    margin-bottom: 3px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.box_footer a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #acacac;
+    font-weight: 600;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_footer a .fa-brands {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.box_copy {
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+    padding: 0 40px;
+}
+.box_copy p {
+    margin-top: 10px;
+    color: #9e9e9e;
+}
+.box_copy hr {
+    height: 1px;
+    background-color: #343434;
+    border-color: #343434;
+}
+}
