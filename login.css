@@ -1,0 +1,345 @@
+@font-face {
+    font-family:'Crimson-bold';
+    src: url(/fonts/Crimson_Pro/static/CrimsonPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'Encode-Reg';
+    src: url(/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Joan';
+    src: url(/fonts/Joan/Joan-Regular.ttf);
+}
+@media screen and (min-width:1260px) {
+    
+
+body {
+    background-image: url(/img/login/background.jpg);
+    font-family: 'Encode-Reg';
+    color: #d9d7d7;
+}   
+
+.container {
+    margin-top: 10%;
+    border-radius: 10px 10px 0 0;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.container img {
+    display: flex;
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+.container, .checkbox, .submit {
+background-color: black;
+width: 30%;
+height: auto; 
+display: block; 
+margin-left: 35%;
+}
+.login, .checkbox, .submit {
+    padding-top: 2%;
+}
+/*LOGIN*/
+.login {
+    display: block;
+    margin-top: 5%;
+    
+}
+.login label {
+    font-size: 1.7rem;
+   text-align: justify;
+   margin-left: 7%;
+  
+}
+.login .usuario {
+    margin-left: 10%;
+}
+.login input {
+    display: block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: #08071c;
+    color: white;
+   border: none;
+}
+
+
+.login input::placeholder {
+    color: #9c9c9c;
+}
+.submit {
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    
+}
+.submit button {
+    border-radius: 4px;
+    background-color:#0c0b2e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 25%;
+  }
+  
+  .submit button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .submit button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .submit button:hover span {
+    padding-right: 25px;
+  }
+  
+  .submit button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.checkbox {
+    padding-left: 1%;
+}
+}
+@media screen and (max-width: 1259px) and (min-width:1080px){
+    body {
+        background-image: url(/img/login/background.jpg);
+        font-family: 'Encode-Reg';
+        color: #d9d7d7;
+    }   
+    
+    .container {
+        margin-top: 10%;
+        border-radius: 10px 10px 0 0;
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    .container img {
+        display: flex;
+        width: 30%;
+        float: right;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .container, .checkbox, .submit {
+    background-color: black;
+    width: 30%;
+    height: auto; 
+    display: block; 
+    margin-left: 35%;
+    }
+    .login, .checkbox, .submit {
+        padding-top: 2%;
+    }
+    /*LOGIN*/
+    .login {
+        display: block;
+        margin-top: 5%;
+        
+    }
+    .login label {
+        font-size: 1.7rem;
+       text-align: justify;
+       margin-left: 7%;
+      
+    }
+    .login .usuario {
+        margin-left: 10%;
+    }
+    .login input {
+        display: block;
+        padding: 3%;
+        border-radius: 10px;
+        margin-top: 5%;
+        background-color: #08071c;
+        color: white;
+       border: none;
+    }
+    
+    
+    .login input::placeholder {
+        color: #9c9c9c;
+    }
+    .submit {
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        
+    }
+    .submit button {
+        border-radius: 4px;
+        background-color:#0c0b2e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left: 25%;
+      }
+      
+      .submit button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .submit button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .submit button:hover span {
+        padding-right: 25px;
+      }
+      
+      .submit button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    
+    .checkbox {
+        padding-left: 1%;
+    }
+    }
+@media screen and (max-width:1079px) {
+    body {
+        background-image: url(/img/login/background.jpg);
+        font-family: 'Encode-Reg';
+        color: #d9d7d7;
+    }   
+    
+    .container {
+        margin-top: 10%;
+        border-radius: 10px 10px 0 0;
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    .container img {
+        display: none;
+        width: 40%;
+        float: right;
+        margin-right: 10%;
+        margin-top: 20%;
+    }
+    .container, .checkbox, .submit {
+    background-color: black;
+    width: 30%;
+    height: auto; 
+    display: block; 
+    margin-left: 35%;
+    }
+   
+    .login, .checkbox, .submit {
+        padding-top: 2%;
+    }
+    /*LOGIN*/
+    .login {
+        display: block;
+        margin-top: 5%;
+        margin-left: 16%;
+        
+    }
+    .login label {
+        font-size: 1.7rem;
+       text-align: justify;
+       margin-left: 7%;
+      
+    }
+    .login .usuario {
+        margin-left: 15%;
+    }
+    .login input {
+        display: block;
+        padding: 3%;
+        border-radius: 10px;
+        margin-top: 5%;
+        background-color: #08071c;
+        color: white;
+       border: none;
+    }
+    
+    
+    .login input::placeholder {
+        color: #9c9c9c;
+    }
+    .submit {
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        
+    }
+    .submit button {
+        border-radius: 4px;
+        background-color:#0c0b2e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left: 15%;
+      }
+      
+      .submit button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .submit button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .submit button:hover span {
+        padding-right: 25px;
+      }
+      
+      .submit button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    
+    .checkbox {
+        padding-left: 1%;
+    }
+    }
+
